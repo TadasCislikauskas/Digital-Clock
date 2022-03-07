@@ -18,6 +18,8 @@ public class HelloApplication extends Application {
     }
 
 //    tikrinam ar atsiranda pakeitimas
+
+//    vis dar nieko neatsirado
     public static void main(String[] args) {
         launch();
     }
