@@ -5,14 +5,15 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EAF4D3;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clock.digitalclock.Controller">
-    <children>
-        <Text fx:id="timer" layoutX="61.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-            <font>
-                <Font size="38.0" />
-            </font>
-        </Text>
-        <TextField fx:id="alarmTime" layoutX="57.0" layoutY="226.0" />
-    </children>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0"
+            prefWidth="533.0" style="-fx-background-color: #EAF4D3;" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml" fx:controller="com.clock.digitalclock.Controller">
+    <Text fx:id="timer" layoutX="231.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+        <font>
+            <Font size="38.0"/>
+        </font>
+    </Text>
+    <Text layoutX="54.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Set alarm:"
+          wrappingWidth="129.73670196533203"/>
+    <TextField fx:id="alarmTime" layoutX="54.0" layoutY="264.0"/>
 </AnchorPane>
